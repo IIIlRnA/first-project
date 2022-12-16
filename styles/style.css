@@ -68,7 +68,7 @@
 }
 
 .link::after{
-  content:' \2192'
+  content:' \2192';
 }
 .link{
   color: #2f80ed;
