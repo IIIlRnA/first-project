@@ -8,9 +8,7 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
 /*секция header*/
-
 .header {
   display: flex;
   height: 100vh;
@@ -20,12 +18,10 @@
   background-color: f2f2f2;
   /* выше установили ограничения для секции */
 }
-
 /*h1, h2, h3, div, img,p, section{
   border: 2px solid red;
   margin:0;
 }*/
-
 .logo {
   z-index: 100;
   background-image: url(../images/logo_place_header.svg);
@@ -42,7 +38,6 @@
   height: 32px;
 
 }
-
 .header__title {
   display: flex;
   position: relative;
@@ -54,7 +49,6 @@
   font-weight: 600;
   line-height: 96px;
 }
-
 .header__subtitle {
   outline: red;
   width: 388px;
@@ -66,14 +60,12 @@
   font-weight: normal;
   line-height: 25px;
 }
-
 .link::after{
   content:' \2192';
 }
 .link{
   color: #2f80ed;
 }
-
 .header__main-illustration {
   display: flex;
   outline: red;
@@ -96,11 +88,7 @@
   width: 568px;
   background-color: #2f80ed;
 }
-
-
 /* Секция блок description*/
-
-
 .description{
   margin-top: 100px;
   margin-bottom: 100px;
@@ -139,7 +127,6 @@
   font-size: 24px;
   font-weight: 600;
 }
-
 /* секция digits*/
 .digits{
   position: relative;
@@ -195,7 +182,6 @@
   font-weight: normal;
   margin-top: 20px;
 }
-
 /*секция feynman*/
 .feynman{
   margin-top: 100px;
@@ -244,7 +230,6 @@
   bottom: 0px;
   /*z-index: 1;
 }
-
 /*секция kaufman*/
 /* и элемента с модификатором вида ключ-значение */
 .kaufman{
@@ -261,7 +246,6 @@
   z-index: 100;
 }
 .table__cell_theme_dark {
-
   width: 200px;
   color: white;
   line-height: 1.2;
@@ -277,8 +261,6 @@
   right: -210px;
   top: 0px;
 }
-
-
 /*секция footer*/
 .footer{
   padding-top: 60px;
