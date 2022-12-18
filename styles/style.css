@@ -335,6 +335,7 @@
   color: white;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 .footer__column-links a{
   font-size: 18px;
@@ -348,10 +349,3 @@
   height: 16px;
   margin-right: 10px;
 }
-.footer__column-link{
-  text-decoration: none;
-  color: white;
-}
-
-
-
